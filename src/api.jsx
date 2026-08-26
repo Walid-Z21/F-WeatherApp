@@ -1,6 +1,6 @@
 export const getWeatherData= async(cityName)=>{
     const response = await fetch (
-        `http://localhost:5000/api/weather?city=${cityName}`
+        `${import.meta.env.VITE_API_URL}/api/weather?city=${cityName}`
     )
     return response.json();
 
