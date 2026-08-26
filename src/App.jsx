@@ -51,7 +51,7 @@ function App() {
 
   },[city])
 
-console.log(weatherData)
+// console.log(weatherData)
   return (
     <div className={`app ${gradientClass}`}>
       <div className="container">
